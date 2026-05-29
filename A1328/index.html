@@ -18,6 +18,7 @@
             text-align: center;
         }
 
+        /* Logo hiệu ứng zoom nhẹ */
         img {
             width: 80vw;
             height: auto;
@@ -31,6 +32,7 @@
             to { transform: scale(1.08); }
         }
 
+        /* 3 chấm loading */
         .dots {
             margin-top: 15px;
             font-size: 18px;
@@ -49,11 +51,9 @@
         // Xóa URL trung gian khỏi lịch sử
         history.replaceState(null, "", "/");
 
-        // Chờ rồi chuyển trang
+      // thời gian chờ rồi chuyển link
         setTimeout(function () {
-            window.location.replace(
-              "https://viethungauto.vn/loc-gio-giay/a1328-112-491"
-            );
+            window.location.href = "https://viethungauto.vn/loc-gio-giay/a1328-112-491";
         }, 1000);
     </script>
 </head>
